@@ -1,6 +1,7 @@
-# My First Website
+# Hello World
 
-Gonna make a list of where we are at:
+My first from scratch website
 
-* Making changes, starting ACP
-* Demonstating save
+
+
+
