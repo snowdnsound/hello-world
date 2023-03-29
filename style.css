@@ -1,0 +1,56 @@
+/* selector {
+    property: value;
+} */
+
+body {
+    background-color: #F5D292;
+}
+
+header {
+    background-color: blanchedalmond;
+    padding: 10px;
+}
+
+li {
+    display: inline-block;
+    padding: 25px;
+    font-family: sans-serif;
+}
+
+a:hover {
+    color: aquamarine;
+}
+
+h1 {
+    color: #8D5DA8;
+    text-align: center;
+    font-family: sans-serif;
+  } 
+
+h2 {
+    color: #A88B54;
+    font-family: sans-serif;  
+}
+
+nav {
+    color: #8D5DA8;
+    text-align: center;
+}
+
+
+p {
+	color: #8D5DA8;
+    font-family: sans-serif;
+    width: 50%;
+}
+
+#hero {
+    width: 500px;
+    padding: 10px;
+    
+}
+
+.thumbnails {
+    width: 30%;
+    font-family: sans-serif;
+}
