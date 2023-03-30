@@ -21,14 +21,13 @@ function catChecker(){
     document.write("We love " + usersCat + " and string conCATenation. ");
 }
 
-
-function ageChecker(){}
+function ageChecker(){
     let age = prompt("How old are you?");
     if (age > 21) {
     document.write("Welome to adulthood, now scoop my litterbox.");
     } else {
     window.location.href = "https://google.com";
 }
-
+}
 // catChecker();
 // ageChecker();
