@@ -29,5 +29,6 @@ function ageChecker(){
     window.location.href = "https://google.com";
 }
 }
-// catChecker();
-// ageChecker();
+
+catChecker();
+ageChecker();
