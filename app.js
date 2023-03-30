@@ -40,12 +40,14 @@ function ageChecker(){
 }
 }
 
-let userNum = prompt("How many starts you would give this experience 1-5?");
-for(let i = 0; i < userNum; i++){
-    document.write("<img src='images/Star.png' alt='orange stars'/>");
+function rateSite(){
+    let userNum = prompt("How many starts you would give this experience 1-5?");
+    for(let i = 0; i < userNum; i++){
+        document.write("<img src='images/Star.png' alt='orange stars'/>");
 }
-
+}
 
 catChecker();
 guessCats();
+rateSite();
 ageChecker();
