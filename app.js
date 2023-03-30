@@ -31,6 +31,13 @@ function guessCats(){
   alert(catMessage);
 }
 
+function rateSite(){
+    let userNum = prompt("How many starts you would give this experience 1-5?");
+    for(let i = 0; i < userNum; i++){
+        document.write("<img src='images/Star.png' alt='orange stars'/>");
+}
+}
+
 function ageChecker(){
     let age = prompt("How old are you?");
     if (age > 20) {
@@ -40,14 +47,9 @@ function ageChecker(){
 }
 }
 
-function rateSite(){
-    let userNum = prompt("How many starts you would give this experience 1-5?");
-    for(let i = 0; i < userNum; i++){
-        document.write("<img src='images/Star.png' alt='orange stars'/>");
-}
-}
+
 
 catChecker();
 guessCats();
-rateSite();
 ageChecker();
+rateSite();
