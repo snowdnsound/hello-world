@@ -30,5 +30,5 @@ function ageChecker(){
 }
 }
 
-// catChecker();
-// ageChecker();
+catChecker();
+ageChecker();
